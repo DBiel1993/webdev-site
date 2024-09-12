@@ -353,8 +353,9 @@ export default function Component() {
     </div>
   );
 }
+type MountainIconProps = React.SVGProps<SVGSVGElement>;
 
-function MountainIcon(props) {
+function MountainIcon(props: MountainIconProps) {
   return (
     <svg
       {...props}

@@ -1,4 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/pages/starter-details/page": "app/pages/starter-details/page.js",
+  "/pages/starter-checkout/page": "app/pages/starter-checkout/page.js",
   "/page": "app/page.js"
 }
