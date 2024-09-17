@@ -322,7 +322,7 @@ export default function Component() {
   );
 }
 
-function CheckIcon(props) {
+function CheckIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -341,7 +341,7 @@ function CheckIcon(props) {
   );
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
