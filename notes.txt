@@ -1,0 +1,45 @@
+
+12 pages
+
+@/pages/..
+
+    /pages/Webdev/page.tsx
+    /pages/Webhostingpage/page.tsx
+    /pages/Maintenancepage/page.tsx
+    /pages/Pricingpage/page.tsx
+    /pages/Contact/page.tsx
+    /pages/Updates/page.tsx
+    /pages/Performance/page.tsx
+    /pages/Report/page.tsx
+    /pages/Pricing1/page.tsx
+    /pages/Pricing2/page.tsx
+    /pages/Pricing3/page.tsx
+    /pages/Aboutpage/page.tsx
+
+
+@/page.tsx
+
+Button routing ...12
+
+    Web Development => /pages/Webdev/page.tsx
+    Web Hosting => /pages/Webhostingpage/page.tsx
+    Maintenance => /pages/Maintenancepage/page.tsx
+    Pricing => /pages/Pricingpage/page.tsx
+    Contact => /pages/Contact/page.tsx
+    About => /pages/Aboutpage/page.tsx
+    Updates-Learn more => /pages/Updates/page.tsx
+    Performance Optimization-Learn more => /pages/Performance/page.tsx
+    Analytics and Reporting => /pages/Report/page.tsx
+    Get Started => /pages/Pricing1/page.tsx
+    Get Started => /pages/Pricing2/page.tsx
+    Get Started => /pages/Pricing3/page.tsx
+
+
+
+UI generator prompt...
+
+This is my webside description:
+
+comprehensive web development, hosting, and maintenance services. The platform offers custom, responsive websites built using cutting-edge technologies, ensuring fast, secure, and scalable solutions. With a focus on user-centric design, reliable hosting, and ongoing support, Acme Web Solutions includes affordable pricing plans, ranging from starter to enterprise levels, tailored to business needs. Key services include performance optimization, security, backups, and detailed analytics. Pages include sections for web development, hosting, maintenance, pricing, and contact.”
+
+I need a page created for: 

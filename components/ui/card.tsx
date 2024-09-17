@@ -26,7 +26,22 @@ export function CardHeader({ children, className }: CardHeaderProps) {
     </div>
   );
 }
+interface CardDescriptionProps {
+  children: ReactNode;
+  className?: string;
+}
 
+export function CardDescription({ children, className }: CardDescriptionProps) {
+  return <p className={cn("text-gray-600", className)}>{children}</p>;
+}
+interface CardTitleProps {
+  children: ReactNode;
+  className?: string;
+}
+
+export function CardTitle({ children, className }: CardTitleProps) {
+  return <h2 className={cn("text-xl font-semibold", className)}>{children}</h2>;
+}
 interface CardContentProps {
   children: ReactNode;
   className?: string;
