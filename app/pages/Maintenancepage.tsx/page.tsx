@@ -70,10 +70,10 @@ export default function Component() {
                     Reliable Maintenance for Your Web Presence
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Acme Web Solutions offers comprehensive maintenance services
-                    to keep your website running smoothly and securely. Trust
-                    our experts to optimize performance, safeguard your data,
-                    and provide detailed analytics.
+                    Black Box Web Solutions offers comprehensive maintenance
+                    services to keep your website running smoothly and securely.
+                    Trust our experts to optimize performance, safeguard your
+                    data, and provide detailed analytics.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">

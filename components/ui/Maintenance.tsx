@@ -47,7 +47,7 @@ export default function Maintenance() {
           <Card className="overflow-hidden rounded-xl">
             <CardHeader>
               <img
-                src="/placeholder.svg"
+                src="/updates.jpg"
                 width="550"
                 height="310"
                 alt="Maintenance Service"
@@ -74,7 +74,7 @@ export default function Maintenance() {
           <Card className="overflow-hidden rounded-xl">
             <CardHeader>
               <img
-                src="/placeholder.svg"
+                src="/performance.jpg"
                 width="550"
                 height="310"
                 alt="Maintenance Service"
@@ -101,7 +101,7 @@ export default function Maintenance() {
           <Card className="overflow-hidden rounded-xl">
             <CardHeader>
               <img
-                src="/placeholder.svg"
+                src="/analytics.jpg"
                 width="550"
                 height="310"
                 alt="Maintenance Service"
