@@ -1,8 +1,6 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/pages/Aboutpage.tsx/page": "app/pages/Aboutpage.tsx/page.js",
   "/pages/Contact/page": "app/pages/Contact/page.js",
   "/pages/Maintenancepage.tsx/page": "app/pages/Maintenancepage.tsx/page.js",
   "/pages/Performance/page": "app/pages/Performance/page.js",
@@ -15,5 +13,7 @@
   "/pages/Webdev/page": "app/pages/Webdev/page.js",
   "/pages/Webhostingpage/page": "app/pages/Webhostingpage/page.js",
   "/pages/starter-checkout/page": "app/pages/starter-checkout/page.js",
-  "/pages/starter-details/page": "app/pages/starter-details/page.js"
+  "/pages/starter-details/page": "app/pages/starter-details/page.js",
+  "/pages/About.tsx/page": "app/pages/About.tsx/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

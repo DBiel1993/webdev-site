@@ -41,7 +41,7 @@ export default function Hero() {
                 Get Started
               </Link>
               <Link
-                href="/pages/Aboutpage"
+                href="/pages/About"
                 className="inline-flex h-10 text-black items-center justify-center rounded-md border border-input bg-background px-4 sm:px-6 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                 prefetch={false}
               >
