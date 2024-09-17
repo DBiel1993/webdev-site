@@ -25,7 +25,7 @@ export default function Hero() {
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h1 className="text-2xl font-bold tracking-tighter sm:text-4xl xl:text-5xl">
-                Elevate Your Online Presence with Acme Web Solutions
+                Elevate Your Online Presence with Black Box Web Solutions
               </h1>
               <p className="max-w-[600px] text-secondary-foreground text-base md:text-xl">
                 Unlock the full potential of your website with our comprehensive
@@ -50,7 +50,7 @@ export default function Hero() {
             </div>
           </div>
           <img
-            src="/placeholder.svg"
+            src="/Hero1.jpg"
             alt="Hero"
             className="mx-auto aspect-square rounded-xl object-cover w-full lg:order-last"
           />
