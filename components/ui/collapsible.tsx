@@ -2,19 +2,15 @@
 
 import React, { useState } from "react";
 
-interface CollapsibleProps {
-  children: React.ReactNode;
-}
-
-export function Collapsible({ children }: CollapsibleProps) {
+// Collapsible component to manage open/close state
+export function Collapsible({ children }: { children: React.ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div>
       {React.Children.map(children, (child) => {
-        // Ensure child is a valid React element and has props type for isOpen, onOpen, onClose
         if (React.isValidElement(child)) {
-          return React.cloneElement(child as React.ReactElement<TriggerProps>, {
+          return React.cloneElement(child as React.ReactElement<any>, {
             isOpen,
             onOpen: () => setIsOpen(true),
             onClose: () => setIsOpen(false),
@@ -26,39 +22,57 @@ export function Collapsible({ children }: CollapsibleProps) {
   );
 }
 
-// Extend TriggerProps with HTMLAttributes to allow passing className and other standard props
-interface TriggerProps extends React.HTMLAttributes<HTMLButtonElement> {
-  onOpen: () => void;
-  onClose: () => void;
-  isOpen: boolean;
-  children: React.ReactNode;
-}
-
+// CollapsibleTrigger component with props for handling open/close state
 export function CollapsibleTrigger({
   onOpen,
   onClose,
   isOpen,
   children,
-  className, // Destructure className to pass it to the button
-  ...props // Spread the remaining props to the button
-}: TriggerProps) {
+  className,
+}: {
+  onOpen: () => void;
+  onClose: () => void;
+  isOpen: boolean;
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
-    <button
-      onClick={isOpen ? onClose : onOpen}
-      className={className} // Pass className to the button element
-      {...props} // Pass any additional props to the button
-    >
+    <button onClick={isOpen ? onClose : onOpen} className={className}>
       {children}
-      <span>{isOpen ? "-" : "+"}</span>
+      <ChevronRightIcon
+        className={`h-5 w-5 transition-all ${isOpen ? "rotate-90" : ""}`}
+      />
     </button>
   );
 }
 
-interface ContentProps {
+// CollapsibleContent component
+export function CollapsibleContent({
+  isOpen,
+  children,
+}: {
   isOpen: boolean;
   children: React.ReactNode;
+}) {
+  return isOpen ? <div>{children}</div> : null;
 }
 
-export function CollapsibleContent({ isOpen, children }: ContentProps) {
-  return isOpen ? <div>{children}</div> : null;
+// ChevronRightIcon component
+function ChevronRightIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m9 18 6-6-6-6" />
+    </svg>
+  );
 }

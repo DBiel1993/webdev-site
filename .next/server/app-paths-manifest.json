@@ -1,5 +1,19 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/pages/Aboutpage": "app/pages/Aboutpage.js",
-  "/page": "app/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/pages/Aboutpage.tsx/page": "app/pages/Aboutpage.tsx/page.js",
+  "/pages/Contact/page": "app/pages/Contact/page.js",
+  "/pages/Maintenancepage.tsx/page": "app/pages/Maintenancepage.tsx/page.js",
+  "/pages/Performance/page": "app/pages/Performance/page.js",
+  "/pages/Pricing1/page": "app/pages/Pricing1/page.js",
+  "/pages/Pricing2/page": "app/pages/Pricing2/page.js",
+  "/pages/Pricing3/page": "app/pages/Pricing3/page.js",
+  "/pages/Pricingpage/page": "app/pages/Pricingpage/page.js",
+  "/pages/Report/page": "app/pages/Report/page.js",
+  "/pages/Updates/page": "app/pages/Updates/page.js",
+  "/pages/Webdev/page": "app/pages/Webdev/page.js",
+  "/pages/Webhostingpage/page": "app/pages/Webhostingpage/page.js",
+  "/pages/starter-checkout/page": "app/pages/starter-checkout/page.js",
+  "/pages/starter-details/page": "app/pages/starter-details/page.js"
 }
